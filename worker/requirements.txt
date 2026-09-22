@@ -1,3 +1,6 @@
-openai>=1.100.0
-supabase>=2.18.0
-python-dotenv>=1.0.1
+# Video Transcriber Worker — Production Requirements
+# Pin versions for reproducible builds
+
+openai==1.40.0
+supabase==2.18.0
+python-dotenv==1.0.1
