@@ -18,9 +18,6 @@ const nextConfig: NextConfig = {
       },
     ]
   },
-  
-  // Rate limiting via middleware (futuro)
-  // experimental: { serverActions: { bodySizeLimit: '1mb' } },
 }
 
 export default nextConfig
