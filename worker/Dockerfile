@@ -1,4 +1,4 @@
-# Video Transcriber Worker — Production Dockerfile
+# Video Transcriber Worker: Production Dockerfile
 FROM python:3.12-slim AS base
 
 # System deps: ffmpeg + yt-dlp runtime deps + CA certs

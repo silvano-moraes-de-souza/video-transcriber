@@ -1,4 +1,4 @@
-# Video Transcriber Worker — Production Requirements
+# Video Transcriber Worker: Production Requirements
 # Pin versions for reproducible builds
 
 openai==1.40.0

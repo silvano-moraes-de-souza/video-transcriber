@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Supabase Setup Script — Inicializa banco de dados do Video Transcriber.
+Supabase Setup Script: Inicializa banco de dados do Video Transcriber.
 Uso: python supabase/setup.py
 Requer: SUPABASE_URL, SUPABASE_SECRET_KEY no .env
 """
@@ -48,7 +48,7 @@ def check_tables():
 
 def main():
     print("=" * 60)
-    print("  SUPABASE SETUP — Video Transcriber")
+    print("  SUPABASE SETUP: Video Transcriber")
     print("=" * 60)
     print(f"URL: {SUPABASE_URL}")
     
@@ -77,9 +77,9 @@ Ou use a CLI do Supabase:
     # Tenta verificar tabelas
     print("\nVerificando tabelas existentes...")
     if check_tables():
-        print("\n✅ Todas as tabelas existem!")
+        print("\nOK: todas as tabelas existem.")
     else:
-        print("\n⚠️  Algumas tabelas faltando — execute as migrações no SQL Editor")
+        print("\nAVISO: algumas tabelas faltando, execute as migrações no SQL Editor")
 
 if __name__ == "__main__":
     main()

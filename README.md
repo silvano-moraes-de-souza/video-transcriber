@@ -44,7 +44,7 @@ Transcription takes minutes; a Vercel function times out long before that. So th
 | Output | Plain text or SRT built from Whisper's timed segments, generated in the browser. |
 | Secrets | The Supabase service key lives only on the server and in the worker; the browser never talks to Supabase directly. |
 
-About 240 lines of TypeScript, Python and SQL. Design decisions are recorded in [`vault/decisions/DECISIONS.md`](vault/decisions/DECISIONS.md) and the spec in [`vault/spec/SPEC.md`](vault/spec/SPEC.md).
+About 240 lines of TypeScript, Python and SQL. Design decisions are recorded in [`docs/decisions.md`](docs/decisions.md).
 
 ## Run it
 
