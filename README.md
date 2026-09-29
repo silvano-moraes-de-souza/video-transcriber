@@ -13,6 +13,8 @@
 
 > Paste the link of a public video, watch the job move through download, audio extraction and transcription, and download the result as plain text or as SRT subtitles. **[Try it live](https://video-transcriber-gilt.vercel.app)**.
 
+[![Video Transcriber home page](docs/screenshot.png)](https://video-transcriber-gilt.vercel.app)
+
 ## Architecture
 
 ```mermaid
